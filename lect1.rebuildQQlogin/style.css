@@ -1,0 +1,66 @@
+.bg{
+    background-image: url('./background.jpg');
+    background-size: cover;
+    height: 80vh;
+    opacity: 0.8;
+    width: 30vw;
+    display: flex;
+    margin: 10vh 30vw;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    /* background-color: antiquewhite; */
+    flex-direction: column;
+    /* opacity: 0.5; */
+    box-shadow:0 0 0 5px#1b1919;
+    border-radius: 80px 80px 80px 200px;
+}
+.h2{
+    height: 20%;
+    /* background-color: blueviolet; */
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1b1919;
+    /* padding-left: 35%; */
+    /* padding-top: 45px; */
+}
+.form{
+    margin-top: 3vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.button{
+    color:  #FFF; 
+    font-style: italic; 
+    background-color: rgb(31, 177, 255);
+    margin-left: 20vw;
+    border-radius: 40px 40px;
+    cursor: pointer;
+    /* margin: 1rem; */
+}
+.input,.input-error{
+    display: block; /* 设置为块级元素 */
+    margin-bottom: 3vh; /* 设置每个输入框之间的间距 */
+    margin-left: 6vw;
+    width: 15vw;
+    padding: 2.2vh; 
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid#1b1919; /* 添加底部边框 */
+    cursor: pointer;
+}
+.input::placeholder {
+    color:  #1b1919; 
+    font-style: italic; 
+    font-size: 1.5px;
+}
+.input-error::placeholder {
+    color:  #1b1919; 
+    font-style: italic; 
+    font-size: 3vh;
+}
+.input-error {
+    border: 1px solid red;
+    font-style: italic; 
+    font-size: 2px;
+  }
