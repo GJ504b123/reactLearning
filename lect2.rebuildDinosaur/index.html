@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ch">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/babel-standalone@6/babel.js"
+    ></script>
+    <!-- 这些脚本标签分别引入了React库、React DOM库和Babel。
+    React库是用于构建用户界面的JavaScript库
+    React DOM是用于将React组件渲染到DOM中的库
+    Babel是一个JavaScript编译器，用于将ES6+代码转换为向后兼容的JavaScript版本。 -->
+    <!-- //就是lec0里cv的东西 -->
+    <link rel="stylesheet" href="./style.css" >
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+   
+    <!-- 用作React组件的挂载点。 -->
+    <script type="text/babel" src="./main.js"></script>
+    <!-- 这个脚本标签引入了一个名为main.js的JavaScript文件
+     type="text/babel"属性告诉Babel来编译这个脚本
+     main.js文件通常包含了React组件和渲染逻辑。 -->
+  </body>
+</html>
